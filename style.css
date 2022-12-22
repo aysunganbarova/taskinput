@@ -1,0 +1,62 @@
+body{
+    background-color: blue;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+
+}
+
+.all{
+    padding: 25px 20px 25px 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.all input{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    margin-right: 15px;
+    outline: none;
+    
+}
+
+.all button{
+    background-color: blue;
+    padding: 10px;
+    border-radius:5px;
+    border: none;
+    color: #fff;
+}
+
+.all button:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+.all ul{
+    padding: 0;
+}
+
+.all ul li{
+    list-style-type: none;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+
+.all ul li:last-child{
+border-bottom:none
+}
+
+.all ul li:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
